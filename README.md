@@ -10,3 +10,6 @@
 
 ### [1️⃣ 컴퓨팅 사고](Week1_ComputingThinking)
 > [1주차 강의](https://www.boostcourse.org/cs112/joinLectures/41485)
+
+### [2️⃣ C언어](Week2_CLanguage)
+> [2주차 강의](https://www.boostcourse.org/cs112/joinLectures/41486)

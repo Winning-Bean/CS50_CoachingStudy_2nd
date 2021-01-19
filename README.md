@@ -10,7 +10,3 @@
 
 ### [1️⃣ 컴퓨팅 사고](Week1_ComputingThinking)
 > [1주차 강의](https://www.boostcourse.org/cs112/joinLectures/41485)
-
-#### 📙 개인 미션
-
-#### 📚 팀 미션

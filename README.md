@@ -9,21 +9,21 @@
 ## 🌈 주차별 기록
 
 ### [1️⃣ 컴퓨팅 사고](Week1_Computational%20Thinking%2C%20Scratch)
-> [강의 기록](Week1_Computational%20Thinking%2C%20Scratch#-강의)
-> [퀴즈 기록](Week1_Computational%20Thinking%2C%20Scratch#-퀴즈)
-> [회고](Week1_Computational%20Thinking%2C%20Scratch#-회고)
+* [강의 기록](Week1_Computational%20Thinking%2C%20Scratch#-강의)
+* [퀴즈 기록](Week1_Computational%20Thinking%2C%20Scratch#-퀴즈)
+* [회고](Week1_Computational%20Thinking%2C%20Scratch#-회고)
 
 ### [2️⃣ C언어](Week2_C)
-> [강의 기록](Week2_C#-강의)
-> [퀴즈 기록](Week2_C#-퀴즈)
-> [회고](Week2_C#-회고)
+* [강의 기록](Week2_C#-강의)
+* [퀴즈 기록](Week2_C#-퀴즈)
+* [회고](Week2_C#-회고)
 
 ### [3️⃣ 배열](Week3_Arrays)
-> [강의 기록](Week3_Arrays#-강의)
-> [퀴즈 기록](Week3_Arrays#-퀴즈)
-> [회고](Week3_Arrays#-회고)
+* [강의 기록](Week3_Arrays#-강의)
+* [퀴즈 기록](Week3_Arrays#-퀴즈)
+* [회고](Week3_Arrays#-회고)
 
 ### [4️⃣ 알고리즘](Week4_Algorithms)
-> [강의 기록](Week4_Algorithms#-강의)
-> [퀴즈 기록](Week4_Algorithms#-퀴즈)
-> [회고](Week4_Algorithms#-)
+* [강의 기록](Week4_Algorithms#-강의)
+* [퀴즈 기록](Week4_Algorithms#-퀴즈)
+* [회고](Week4_Algorithms#-)

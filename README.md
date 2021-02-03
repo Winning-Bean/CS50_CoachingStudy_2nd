@@ -16,3 +16,6 @@
 
 ### [3️⃣ 배열](Week3_Arrays)
 > [3주차 강의](https://www.boostcourse.org/cs112/joinLectures/41487)
+
+### [4️⃣ 알고리즘](Week4_Algorithms)
+> [4주차 강의](https://www.boostcourse.org/cs112/joinLectures/41488)

@@ -8,7 +8,7 @@
 
 ## 🌈 주차별 기록
 
-### [1️⃣ 컴퓨팅 사고](Week1_Computational_Thinking,_Scratch)
+### [1️⃣ 컴퓨팅 사고](Week1_Computational%20Thinking%2C%20Scratch)
 > [1주차 강의](https://www.boostcourse.org/cs112/joinLectures/41485)
 
 ### [2️⃣ C언어](Week2_C)

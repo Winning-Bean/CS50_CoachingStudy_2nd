@@ -26,4 +26,4 @@
 ### [4️⃣ 알고리즘](Week4_Algorithms)
 * [강의 기록](Week4_Algorithms#-강의)
 * [퀴즈 기록](Week4_Algorithms#-퀴즈)
-* [회고](Week4_Algorithms#-)
+* [회고](Week4_Algorithms#-회고)

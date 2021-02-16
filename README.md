@@ -27,3 +27,8 @@
 * [강의 기록](Week4_Algorithms#-강의)
 * [퀴즈 기록](Week4_Algorithms#-퀴즈)
 * [회고](Week4_Algorithms#-회고)
+
+### [5️⃣ 메모리](Week5_Memory)
+* [강의 기록](Week5_Memory#-강의)
+* [퀴즈 기록](Week5_Memory#-퀴즈)
+* [회고](Week5_Memory#-회고)

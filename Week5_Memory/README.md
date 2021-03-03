@@ -383,5 +383,82 @@ int main(int argc, char *argv[])
 > 파일 시그니처, 매직 넘버! 이제 꼭 기억해야겠다.
 
 ## [💡 퀴즈](https://www.boostcourse.org/cs112/joinLectures/41497)
+1. 메모리 주소 - 아래 코드를 실행하면 어떤 결과가 출력될까요?
+   ``` C
+   #include <stdio.h>
+
+   int main(void)
+   {
+       int n = 20;
+       printf("%i \n", *&n);
+   }
+   ```
+   > 20
+2. 포인터 - 아래와 같이 변수 n과 p을 생성했습니다. 변수 n의 메모리 주소를 출력하는 올바른 코드는 다음 중 무엇인가요?
+   ``` C
+   int n = 5;
+   int *p = &n;
+   ```
+   > printf("%p\n", p);
+3. 문자열 - CS50 라이브러리의 string 자료형을 사용해 변수 s를 생성했습니다. 아래와 동일한 의미를 지니는 코드는 무엇인가요?
+   ``` C
+   string s = "CS50";
+   ```
+   > char *s = “CS50”
+4. 문자열 비교 - 아래와 같이 변수 s를 생성했을때, 문자 ‘W’를 출력하는 코드는 무엇인가요?
+   ``` C
+   char *s = "EDWITH";
+   ```
+   > printf("%c\n", *(s+2));
+5. 문자열 복사 - 아래와 같이 변수 s를 생성한 뒤, 새로운 변수 t에 “EDWITH” 문자를 복사하려고 합니다. malloc 함수를 이용해 변수 t를 생성할 때 총 몇 바이트의 메모리를 할당해야 할까요?
+   ``` C
+   char *s = "EDWITH";
+   ```
+   > 7바이트
+6. 메모리 할당과 해제 - 할당된 메모리를 해제 하기 위해 사용하는 함수는 무엇인가요?
+   > free()
+7. 메모리 교환, 스택, 힙 - malloc() 함수를 통해 할당받은 메모리는 어디에 위치하게 될까요?
+   > 힙(heap)
+8. 파일 쓰기 - data.csv 파일에 값을 입력하는 프로그램을 작성하려고 합니다. 이때 필요한 함수가 아닌 것은 무엇인가요?
+   ```
+   fopen(), fcreate(), fprintf(), fclose()
+   ```
+   > fcreate()
+9. 파일 읽기 - 아래와 같은 코드가 있을 때 출력되는 값은 얼마일까요?
+   ``` C
+   int main(void)
+   {
+       x = 5;
+       func(&x);
+       printf("%i", x);
+   }
+
+   void func(int *y)
+   {
+       *y = 10;
+   }
+   ```
+   > 10
+10. 메모리 교환 - 아래 코드와 같이 swap 함수를 통해 메모리에 저장된 x와 y의 값을 교환하려고 합니다. 즉, swap 함수가 호출된 이후 x는 5, y는 3의 값을 가져야 합니다. main 함수에서 호출되는 swap 함수의 괄호에 포함되어야 할 코드로 적절한 것은 무엇인가요?
+    ``` C
+    #include <stdio.h>
+
+    void swap(int *a, int *b);
+
+    int main(void)
+    {
+        int x = 3;
+        int y = 5;
+        swap(      );
+    }
+
+    void swap(int *a, int *b)
+    {
+        int tmp = *a;
+        *a = *b;
+        *b = tmp;
+    }
+    ```
+    > &x, &y
 
 ## 🎞 회고

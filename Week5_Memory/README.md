@@ -282,6 +282,43 @@ int main(void)
 * 💁‍♂ : 메모리 영역을 다양하게 나누는 이유는 무엇일까요?
   * 🙋‍♀️ : 메모리는 한정되어 있으므로, 메모리를 할당 받아야하는 데이터들의 목적들에 따라 영역 나누어 접근속도를 빨리하며 관리에 용이하도록 만들기 위함입니다.
 
+### 8️⃣ 파일 쓰기
+#### 강의 요약
+* 사용자에게 입력 받기
+  * scanf라는 함수는 사용자로부터 형식 지정자에 해당되는 값을 입력받아 저장하는 함수이다.
+    * `int x;` `scanf("%i", &x);`
+      * scanf에 x가 아닌 &x로 그 주소를 입력한다.
+      * scanf 함수의 변수가 실제로 스택 영역 안에 x가 저장된 주소로 찾아가서 사용자가 입력한 값을 저장하도록 하기 위함이다.
+    * `char s[5];` `scanf("%s", s);`
+      * scanf에 변수 s를 그대로 입력한다.
+      * s를 문자열, 즉 char자료형의 배열로 정의하였기 때문이다.
+      * clang 컴파일러는 문자 배열의 이름을 포인터처럼 다룬다. 즉 scanf에 s라는 배열의 첫 바이트 주소를 넘겨주는 것이다.
+* 파일 쓰기
+  ``` C
+  #include <cs50.h>
+  #include <stdio.h>
+  #include <string.h>
+
+  int main(void)
+  {
+      FILE *file = fopen("phonebook.csv", "a");
+      char *name = get_string("Name: ");
+      char *number = get_string("Number: ");
+      fprintf(file, "%s,%s\n", name, number);
+      fclose(file);
+  }
+  ```
+  * fopen 함수를 이용하면 FILE 자료형으로 불러올 수 있다.
+    * fopen 함수의 첫번째 인자는 파일의 이름, 두번째 인자는 모드로 r은 읽기, w는 쓰기, a는 덧붙이기를 의미한다.
+  * 사용자에게 name과 number라는 문자열을 입력받고, 이를 fprintf 함수를 이용하여 printf처럼 파일에 직점 내용을 출력할 수 있다.
+  * 작업이 끝난 후에는 fclose 함수로 파일에 대한 작업을 종료해줘야 한다.
+#### 생각해보기
+* 💁‍♂ : get_long, get_float, get_char도 비슷한 방식으로 직접 구현할 수 있을까요?
+  * 🙋‍♀️ : scanf를 활용하여 충분히 가능합니다. long, float, char 뿐만 아니라 short, double 자료형도 가능합니다.  
+    scanf("%li", &(long형 변수));  
+    scanf("%f", &(float형 변수));  
+    scanf("%c", &(char형 변수));
+
 ## [💡 퀴즈](https://www.boostcourse.org/cs112/joinLectures/41497)
 
 ## 🎞 회고
